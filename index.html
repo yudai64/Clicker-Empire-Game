@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--bootstrap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Clicker Empire Game</title>
 </head>
 <body>
+    <div id="target">
+        <div class="vh-100 d-flex flex-column justify-content-center align-items-center bg-black">
+            <div class="d-flex align-items-center col-10 h-100">
+                <div id="topPage" class="col-12 d-flex flex-column justify-content-center align-items-center">
+                    <div class="bg-white col-6 p-3 d-flex flex-column justify-content-center align-items-center">
+                        <div class="text-center">
+                            <h2>Clicker Empire Game</h2>
+                        </div>
+                        <div class="mt-4 d-flex justify-content-center col-10">
+                            <input type="text" class="form-control" placeholder="Name" id="inputName" required>
+                        </div>
+                        <div class="mt-4 d-flex col-10">
+                            <div class="col-6 pr-1 pl-0">
+                                <button type="submit" class="btn btn-outline-primary w-100" onclick="checkNewGame() ? gameStart(false) : false;  event.preventDefault()">New Game</button>
+                            </div>
+                            <div class="col-6 pl-1 pr-0">
+                                <button type="submit" class="btn btn-primary w-100" onclick="checkLogin(); event.preventDefault()">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="gamePage"></div>
+
+            </div>
+        </div>
+    </div>
     <script type="text/javascript" src="index.js"></script>
 </body>
 </html>

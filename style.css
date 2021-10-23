@@ -1,0 +1,110 @@
+img {
+    width: 100%;
+    max-height: 100%;
+}
+
+#humbergerImage:hover {
+    opacity: 0.7;
+}
+
+#humbergerImage:active {
+    position: relative;
+    top: 3px;
+}
+
+#itemInfo {
+    overflow-y: scroll;
+}
+
+#backBtn {
+    color: #8DA1FD;
+    border-color: #8DA1FD;
+    background-color: white;
+}
+
+#backBtn:hover {
+    color: #8DA1FD;
+}
+
+#purchaseBtn {
+    color: white;
+    background-color: #3D4AF8;
+}
+
+.icon-outer {
+    /* box-sizing: border-box; */
+    padding-top: 10%;
+    margin-left: .25rem;
+    margin-right: .25rem;
+    /* 縦横可変サイズにしたい */
+    height: 50px;
+    width: 50px;
+    max-height: 100%;
+    padding: .25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    border: 2px solid transparent;
+}
+
+.item:hover {
+    border: 2px solid #4299D9;
+    padding: 0;
+    margin: 0;
+}
+
+#clearBtn {
+    border: 2px solid #ffffff;
+}
+
+#clearBtn:hover {
+    border: 2px solid #4299D9;
+}
+
+#saveBtn {
+    border: 2px solid #ffffff;
+}
+
+#saveBtn:hover {
+    border: 2px solid #4299D9;
+}
+
+.bg-black {
+    background-color: #252E3A
+}
+
+.bg-gray {
+    background-color: #4A5972;
+}
+
+.text-green {
+    color: #4AA777;
+}
+
+
+.h-10 {
+    height: 10%;
+}
+
+.h-20 {
+    height: 20%;
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-65 {
+    height: 65%;
+}
+
+.h-70 {
+    height: 70%;
+}
+
+.w-90 {
+    width: 90%;
+}
